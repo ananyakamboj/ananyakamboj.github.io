@@ -832,11 +832,20 @@ main {
 .degree-year-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 100%; /* or set a specific width */
+  align-items: center; /* Ensures the items are vertically centered */
 }
 
-.degree-year-wrapper span {
-  margin-right: 10px; /* adjust as needed */
+.degree-year-wrapper .degree,
+.degree-year-wrapper .year {
+  margin-right: 10px; /* Optional: Add spacing between the items */
+}
+
+.degree-year-wrapper .degree {
+  flex-grow: 1; /* Ensures the degree takes up remaining space */
+}
+
+.degree-year-wrapper .year {
+  white-space: nowrap; /* Prevents the year from wrapping to the next line */
 }
 
 
