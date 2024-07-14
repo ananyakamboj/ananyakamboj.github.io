@@ -829,26 +829,25 @@ main {
   line-height: 1.6;
 }
 
-.degree-year-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Ensures the items are vertically centered */
+.resume-button-wrapper {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.degree-year-wrapper .degree,
-.degree-year-wrapper .year {
-  margin-right: 10px; /* Optional: Add spacing between the items */
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff9100;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.degree-year-wrapper .degree {
-  flex-grow: 1; /* Ensures the degree takes up remaining space */
+.resume-button:hover {
+  background-color: #0f00b3;
 }
-
-.degree-year-wrapper .year {
-  white-space: nowrap; /* Prevents the year from wrapping to the next line */
-}
-
-
 
 /**
  * skills 
