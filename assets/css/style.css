@@ -829,6 +829,17 @@ main {
   line-height: 1.6;
 }
 
+.degree-year-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* or set a specific width */
+}
+
+.degree-year-wrapper span {
+  margin-right: 10px; /* adjust as needed */
+}
+
+
 
 /**
  * skills 
