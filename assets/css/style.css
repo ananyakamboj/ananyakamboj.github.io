@@ -47,7 +47,7 @@
   ), hsl(149, 56%, 83%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(152, 57%, 79%) 0%, 
+    hsl(204, 66%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
   --text-gradient-yellow: linear-gradient(
